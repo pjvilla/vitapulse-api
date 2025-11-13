@@ -1,8 +1,9 @@
 {
   "name": "VitaPulseAPI",
-  "scripts": {
-    "dev": "bun run --hot src/index.ts"
-    "build": "bun build src/index.ts --compile --outfile hono-app"
+   "scripts": {
+    "dev": "bun run --hot src/index.ts",
+    "build": "bun install", 
+    "start": "bun run src/index.ts"
   },
   "dependencies": {
     "@libsql/client": "^0.15.2",
